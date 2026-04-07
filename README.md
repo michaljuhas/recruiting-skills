@@ -39,7 +39,7 @@ Then restart Claude Code or start a new conversation.
 ### Option 3: Clone the whole repo
 
 ```
-git clone https://github.com/AiWithMichal/candidate-sourcer.git
+git clone https://github.com/michaljuhas/recruiting-skills.git
 cp -r candidate-sourcer/skills/* ~/.claude/skills/
 ```
 
@@ -130,7 +130,7 @@ candidate-sourcer/
 This project was created by **Michal Juhas**, an AI advisor helping teams get more productive with AI.
 
 For implementation support, workshops, and community:
-- Join the community at [aiwithmichal.com](https://aiwithmichal.com)
+- Join the community at [aiwithmichal.com](https://aiwithmichal.com?ref=GitHub&utm_source=github&utm_medium=readme&utm_campaign=recruiting-skills)
 - Get individual or group support to set up AI-powered recruiting workflows
 - Attend workshops to learn how to get the most out of AI in your daily work
 
