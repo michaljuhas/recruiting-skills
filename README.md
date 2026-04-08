@@ -1,4 +1,4 @@
-# Candidate Sourcer
+# Recruiting Skills
 
 AI-powered skills for Claude Code that help recruiters source, evaluate, and engage candidates. Designed for non-technical HR and talent acquisition professionals.
 
@@ -19,19 +19,33 @@ Plus: a **pipeline tracker template** and **playbooks** for capturing what worke
 
 **Step 1: Download this repo**
 
-Click **Code → Download ZIP** on GitHub, then unzip it. Or clone it:
+Click **Code -> Download ZIP** on GitHub, then unzip it. Or clone it:
 
 ```
 git clone https://github.com/michaljuhas/recruiting-skills.git
 ```
 
-**Step 2: Copy the `.claude` folder into your recruiting project**
+**Step 2: Choose an install option**
+
+If you are on Mac and do not see `.claude` in Finder, that is expected because dot-folders are hidden. Use Terminal for copy commands.
+
+**Option A - Project install (Claude Code / project-scoped)**
+
+Copy the `.claude` folder into your recruiting project:
 
 ```
 cp -r recruiting-skills/.claude /path/to/your-recruiting-project/
 ```
 
-Then restart Claude Code or start a new conversation.
+**Option B - Claude home install (basic Claude Chat / global)**
+
+Copy the `.claude` folder into your Claude home so it works in plain Claude Chat without extra project subfolders:
+
+```
+cp -r recruiting-skills/.claude ~/.claude
+```
+
+Then restart Claude or start a new conversation so skills are reloaded.
 
 The `.claude` folder includes everything:
 - **Skills** — the 6 AI-powered recruiting tools
