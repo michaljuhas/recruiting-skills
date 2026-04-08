@@ -16,7 +16,7 @@ Paste a job description or requirement analysis, and this skill will build a str
 ## Before You Begin
 
 1. **Check `my-examples/`** for past ICPs. If found, match the style, structure, and level of detail the recruiter prefers.
-2. **Check `../../playbooks/`** for a playbook matching this role type. If found, incorporate proven screening signals and evaluation criteria. Tell the user: "I found a playbook for [role type] — incorporating what historically worked."
+2. **Check `../playbooks/`** for a playbook matching this role type. If found, incorporate proven screening signals and evaluation criteria. Tell the user: "I found a playbook for [role type] — incorporating what historically worked."
 
 ## Process
 

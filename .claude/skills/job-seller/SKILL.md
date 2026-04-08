@@ -17,7 +17,7 @@ Paste a job description and this skill will analyze its selling points, reframe 
 
 1. **Check `my-examples/`** for past job ads that attracted great candidates. Match what worked.
 2. **Check `resources/`** for mind maps and PDF guides on pitching vacancies and making jobs appealing. Reference their insights.
-3. **Check `../../playbooks/`** for role-specific selling points that resonated with candidates in the past.
+3. **Check `../playbooks/`** for role-specific selling points that resonated with candidates in the past.
 
 ## Core Question
 

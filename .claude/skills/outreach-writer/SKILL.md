@@ -17,7 +17,7 @@ Share a candidate profile (or reference one from the conversation) and this skil
 
 1. **Check `my-examples/`** for past outreach messages. If found, analyze the recruiter's voice, tone, typical hooks, and message structure. Generate new messages that match their personal style.
 2. **Check `my-examples/tone.md`** specifically. If it exists, use it to calibrate voice and style.
-3. **Check `../../playbooks/`** for a matching role playbook. Use proven outreach approaches and avoid approaches marked as ineffective.
+3. **Check `../playbooks/`** for a matching role playbook. Use proven outreach approaches and avoid approaches marked as ineffective.
 4. **Check conversation context** for job-seller outreach hooks. If available, weave selling points into messages.
 
 **If no tone preference is found**, ask once: "Would you like me to write in a casual, professional, or direct tone? You can save your preferred tone in `my-examples/tone.md` for future use."

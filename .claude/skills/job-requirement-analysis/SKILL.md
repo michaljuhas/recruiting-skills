@@ -17,7 +17,7 @@ Paste your job description, hiring manager notes, or just say "I have a new role
 
 1. **Check `my-examples/`** for past requirement analyses. If found, match the depth, format, and structure the recruiter prefers.
 2. **Check `resources/`** for PDF guides or mind maps on requirement analysis. Reference relevant insights.
-3. **Check `../../playbooks/`** for a playbook matching this role type. If found, incorporate role-specific intake patterns and mention it: "I found a playbook for [role type] — using it to guide this analysis."
+3. **Check `../playbooks/`** for a playbook matching this role type. If found, incorporate role-specific intake patterns and mention it: "I found a playbook for [role type] — using it to guide this analysis."
 
 ## How This Works
 

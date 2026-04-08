@@ -17,7 +17,7 @@ Share your ICP or job description, and this skill will generate a phased search 
 
 1. **Check `my-examples/`** for past search strings and community lists that worked. Incorporate proven strategies.
 2. **Check `resources/`** for PDF guides or mind maps on sourcing strategy. Reference insights.
-3. **Check `../../playbooks/`** for a matching role playbook. If found, lead with proven channels and flag ones that didn't work: "Your playbook shows [channel] had [X]% response rate for this role — prioritizing that."
+3. **Check `../playbooks/`** for a matching role playbook. If found, lead with proven channels and flag ones that didn't work: "Your playbook shows [channel] had [X]% response rate for this role — prioritizing that."
 
 ## Part A: Multi-Step Search Strategy
 

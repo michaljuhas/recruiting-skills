@@ -17,33 +17,18 @@ Plus: a **pipeline tracker template** and **playbooks** for capturing what worke
 
 ## Installation
 
-### Option 1: Personal skills (available in all your projects)
-
-Copy the skill folders into your personal Claude skills directory:
+Copy the `.claude` folder into your recruiting project:
 
 ```
-cp -r skills/* ~/.claude/skills/
-```
-
-### Option 2: Project-level skills
-
-Copy into your project's Claude configuration:
-
-```
-mkdir -p .claude/skills
-cp -r skills/* .claude/skills/
+cp -r .claude /path/to/your-recruiting-project/
 ```
 
 Then restart Claude Code or start a new conversation.
 
-### Option 3: Clone the whole repo
-
-```
-git clone https://github.com/michaljuhas/recruiting-skills.git
-cp -r candidate-sourcer/skills/* ~/.claude/skills/
-```
-
-Also copy the `playbooks/` folder to your working directory so skills can reference it.
+The `.claude` folder includes everything:
+- **Skills** — the 6 AI-powered recruiting tools
+- **Playbooks** — per-role strategy memory (edit these as you learn what works)
+- **Templates** — pipeline tracker
 
 ## Quick Start
 
@@ -66,27 +51,27 @@ Every skill has a `my-examples/` folder. Drop in files that show your preferred 
 
 | Skill Folder | What to Add |
 |-------------|-------------|
-| `candidate-icp-builder/my-examples/` | Past ICPs or scoring rubrics you liked |
-| `job-seller/my-examples/` | Job ads that attracted great candidates |
-| `sourcing-strategy-generator/my-examples/` | Search strings and community lists that worked |
-| `candidate-screener/my-examples/` | Past candidate evaluations and hiring manager briefings |
-| `outreach-writer/my-examples/` | Your best outreach emails, InMails, and follow-ups |
+| `.claude/skills/candidate-icp-builder/my-examples/` | Past ICPs or scoring rubrics you liked |
+| `.claude/skills/job-seller/my-examples/` | Job ads that attracted great candidates |
+| `.claude/skills/sourcing-strategy-generator/my-examples/` | Search strings and community lists that worked |
+| `.claude/skills/candidate-screener/my-examples/` | Past candidate evaluations and hiring manager briefings |
+| `.claude/skills/outreach-writer/my-examples/` | Your best outreach emails, InMails, and follow-ups |
 
 Each folder ships with a Software Project Manager example so you can see the expected format.
 
-**Outreach tone**: Save your preferred writing style in `outreach-writer/my-examples/tone.md` (e.g., "casual and direct, always lead with the candidate's work, keep messages under 100 words").
+**Outreach tone**: Save your preferred writing style in `.claude/skills/outreach-writer/my-examples/tone.md` (e.g., "casual and direct, always lead with the candidate's work, keep messages under 100 words").
 
 ### `playbooks/` — What Worked Per Role Type
 
 After hiring for a role, capture what worked in a playbook file:
 
 ```
-playbooks/software-project-manager.md
-playbooks/frontend-engineer.md
-playbooks/data-scientist.md
+.claude/playbooks/software-project-manager.md
+.claude/playbooks/frontend-engineer.md
+.claude/playbooks/data-scientist.md
 ```
 
-Each playbook has three sections: **What Worked** (best channels, outreach approaches), **What Didn't Work** (channels to avoid), and **Notes** (tips for next time). See `playbooks/example-software-project-manager.md` for the format.
+Each playbook has three sections: **What Worked** (best channels, outreach approaches), **What Didn't Work** (channels to avoid), and **Notes** (tips for next time). See `.claude/playbooks/example-software-project-manager.md` for the format.
 
 All skills read from `playbooks/` automatically — they'll prioritize proven channels and avoid ones that failed.
 
@@ -108,15 +93,16 @@ But you can use any skill independently. Paste a JD and get an ICP. Paste a prof
 
 ```
 candidate-sourcer/
-├── skills/                    # The 6 skills (copy these to install)
-│   ├── job-requirement-analysis/
-│   ├── candidate-icp-builder/
-│   ├── job-seller/
-│   ├── sourcing-strategy-generator/
-│   ├── candidate-screener/
-│   └── outreach-writer/
-├── playbooks/                 # Per-role strategy memory
-├── templates/                 # Pipeline tracker template
+├── .claude/                   # Copy this entire folder to install
+│   ├── skills/                # The 6 AI-powered recruiting tools
+│   │   ├── job-requirement-analysis/
+│   │   ├── candidate-icp-builder/
+│   │   ├── job-seller/
+│   │   ├── sourcing-strategy-generator/
+│   │   ├── candidate-screener/
+│   │   └── outreach-writer/
+│   ├── playbooks/             # Per-role strategy memory
+│   └── templates/             # Pipeline tracker template
 └── examples/                  # Sample JD and workflow walkthrough
 ```
 
@@ -133,6 +119,11 @@ For implementation support, workshops, and community:
 - Join the community at [aiwithmichal.com](https://aiwithmichal.com?ref=GitHub&utm_source=github&utm_medium=readme&utm_campaign=recruiting-skills)
 - Get individual or group support to set up AI-powered recruiting workflows
 - Attend workshops to learn how to get the most out of AI in your daily work
+
+## Contact
+
+- Personal website: [michaljuhas.com](https://michaljuhas.com)
+- Connect on LinkedIn: [linkedin.com/in/michaljuhas](https://www.linkedin.com/in/michaljuhas/)
 
 ## License
 

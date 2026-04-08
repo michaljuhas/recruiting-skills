@@ -18,7 +18,7 @@ For multiple candidates, separate them with `---`.
 ## Before You Begin
 
 1. **Check `my-examples/`** for past evaluations or briefings. Match the format, tone, and depth the recruiter prefers.
-2. **Check `../../playbooks/`** for a matching role playbook. If found, weight screening signals that historically predicted good hires.
+2. **Check `../playbooks/`** for a matching role playbook. If found, weight screening signals that historically predicted good hires.
 3. **Check conversation context** for an ICP/scoring rubric. If none exists, ask: "I don't see a scoring rubric in our conversation. Would you like to provide a JD so I can build one first, or should I do a general assessment without scoring?"
 
 ## Single Candidate Evaluation
