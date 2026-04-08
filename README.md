@@ -17,10 +17,18 @@ Plus: a **pipeline tracker template** and **playbooks** for capturing what worke
 
 ## Installation
 
-Copy the `.claude` folder into your recruiting project:
+**Step 1: Download this repo**
+
+Click **Code → Download ZIP** on GitHub, then unzip it. Or clone it:
 
 ```
-cp -r .claude /path/to/your-recruiting-project/
+git clone https://github.com/michaljuhas/recruiting-skills.git
+```
+
+**Step 2: Copy the `.claude` folder into your recruiting project**
+
+```
+cp -r recruiting-skills/.claude /path/to/your-recruiting-project/
 ```
 
 Then restart Claude Code or start a new conversation.
@@ -92,7 +100,6 @@ But you can use any skill independently. Paste a JD and get an ICP. Paste a prof
 ## File Structure
 
 ```
-candidate-sourcer/
 ├── .claude/                   # Copy this entire folder to install
 │   ├── skills/                # The 6 AI-powered recruiting tools
 │   │   ├── job-requirement-analysis/
